@@ -8,7 +8,7 @@ The OpenCellID project was primarily created to serve as a data source for GSM l
 
 OpenCellID provides 100% free Cell ID data under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). The OpenCellID database is published under an open content license with the intention of promoting free use and redistribution of the data. All data uploaded by any of the contributors can also be downloaded again free of charge - no exceptions!
 
-[![](image.png)](https://creativecommons.org/licenses/by-sa/4.0/) [OpenCelliD Project](https://opencellid.org/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
+[![](./assets/license-opencellid.png)](https://creativecommons.org/licenses/by-sa/4.0/) [OpenCelliD Project](https://opencellid.org/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Dependencies
 
