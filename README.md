@@ -20,7 +20,14 @@ OpenCellID provides 100% free Cell ID data under a [Creative Commons Attribution
 ## Data
 
 1. Cell-data (https://www.opencellid.org/)
-   Needs an API key to download the dataset
+   1. [Worldwide Dataset](https://data.rapids.ai/cudf/datasets/cell_towers.tar.xz) (46M rows)
+   2. [US Dataset](https://data.rapids.ai/cudf/datasets/cell_towers_us.tar.xz): (7M rows) Suitable for the free tier of Google Colab.
+   #### Usage in Google Colab
+   - For a smaller dataset to test the notebook with the free tier of Google Colab, use: download_and_extract('us').
+   #### Additional Information
+   - Users can register for an account on [OpenCellID](https://www.opencellid.org/) to obtain a data access token and download the latest dataset directly.
+   - The auto-downloader provided in this notebook will not fetch the latest dataset from OpenCellID. For the latest data, manual download with an access token is required.
+   - If the latest data is not a priority, the included dataset dated May 2024 will suffice for exploring the notebook's functionalities.
 
 2. MCC-MNC dataset to map to carrier name
    Publicaly available dataset: https://mcc-mnc.net/ powered by [simbase](https://www.simbase.com/)
